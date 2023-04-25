@@ -1,0 +1,29 @@
+<div class="container">
+    <h4 class="ms-5 mt-3">Update Item</h4>
+    <div class="row">
+        <div class="col-6">
+            <form class="border border-2 p-3 bg-light">
+                <input [(ngModel)]="product.id" name="productId" type="text" class="form-control mb-2 border border-2 border-primary" placeholder="Enter item id">
+                <input [(ngModel)]="product.title" name="productTitle" type="text" class="form-control mb-2 border border-2 border-primary" placeholder="Enter item name">
+                <textarea [(ngModel)]="product.description" name="productDescription" id="" cols="30" rows="5" class="form-control mb-2 border border-2 border-primary" placeholder="Enter item description"></textarea>
+                <input [(ngModel)]="product.price" name="productPrice" type="text" class="form-control mb-2 border border-2 border-primary" placeholder="Enter item price">
+                <input [(ngModel)]="product.rating" name="productRating" type="text" class="form-control mb-2 border border-2 border-primary" placeholder="Enter item rating">
+                <input [(ngModel)]="product.stock" name="productStock" type="text" class="form-control mb-2 border border-2 border-primary" placeholder="Enter available stock ">
+                <input [(ngModel)]="product.brand" name="productBrand" type="text" class="form-control mb-2 border border-2 border-primary" placeholder="Enter item brand name">
+                <input [(ngModel)]="product.thumbnail" name="productThumbnail" type="text" class="form-control mb-2 border border-2 border-primary" placeholder="Enter thumbnail url">
+                <input [(ngModel)]="product.images" name="productImages" type="text" class="form-control mb-2 border border-2 border-primary" placeholder="Enter image url">
+                <select [(ngModel)]="product.categoryId"  name="categoryId" id="" class="form-control mb-2 border border-2 border-primary">
+                    <option value="" selected hidden disabled>Select</option>
+                    <option value={{category.id}} *ngFor="let category of allCategory">{{category.name}}</option>
+                </select>
+                <input (click)="updateProduct()"  type="button" value="Update" class="btn btn-success mt-3">
+                <a routerLink="/" class="btn btn-danger mt-3" style="float: right;">Close</a>
+            </form>
+        </div>
+        <div class="col-6">
+            <img [src]="product.thumbnail" width="100%">
+        </div>
+    </div>
+</div>
+
+

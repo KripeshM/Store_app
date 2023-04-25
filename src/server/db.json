@@ -1,0 +1,146 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "iPhone 12",
+      "description": " The iPhone 12 was Apple's mainstream flagship iPhone for 2020. Available in a 6.1-inch size, the iPhone 12 offers 5G, an OLED display, improved cameras, and Apple's A14 chip.",
+      "price": "140000",
+      "rating": "4.1",
+      "stock": "50",
+      "brand": "Apple",
+      "categoryId": "1",
+      "thumbnail": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/31jQ91XUDhS.jpg",
+      "images": "https://maplestore.in/wp-content/uploads/2020/10/iPhone_12_Lineup_Screen__WWEN.jpg"
+    },
+    {
+      "id": "2",
+      "title": "iPhone X",
+      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": "49999",
+      "rating": "4.44",
+      "stock": "34",
+      "brand": "Apple",
+      "categoryId": "1",
+      "thumbnail": "http://cdn.shopify.com/s/files/1/0639/4576/9191/products/apple_iphone_x_white_1.png?v=1674464542",
+      "images": "https://i.dummyjson.com/data/products/2/2.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Samsung Universe 9",
+      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+      "price": "12490",
+      "rating": " 4.09",
+      "stock": "36",
+      "brand": "Samsung",
+      "categoryId": "1",
+      "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+      "images": "https://i.dummyjson.com/data/products/3/1.jpg"
+    },
+    {
+      "id": "4",
+      "title": "OPPOF19",
+      "description": "OPPO F19 is officially announced on April 2021.",
+      "price": "22280",
+      "rating": "4.3",
+      "stock": "123",
+      "brand": "OPPO",
+      "categoryId": "1",
+      "thumbnail": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71JUNVmHWBL._SL1500_.jpg",
+      "images": "https://i.dummyjson.com/data/products/4/3.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Huawei P30",
+      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+      "price": "25499",
+      "rating": "4.09",
+      "stock": "32",
+      "brand": "Huawei",
+      "categoryId": "1",
+      "thumbnail": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51zDfRUUhHL.jpg",
+      "images": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61XM1qbUPUL.jpg"
+    },
+    {
+      "id": "6",
+      "title": "MacBook Pro",
+      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+      "price": "130000",
+      "rating": "4.57",
+      "stock": "83",
+      "brand": "Apple",
+      "categoryId": "2",
+      "thumbnail": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61bX2AoGj2L._SX522_.jpg",
+      "images": "https://www.apple.com/newsroom/images/product/mac/standard/Apple_MacBook-Pro_14-16-inch_10182021_big.jpg.large.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Samsung Galaxy Book",
+      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+      "price": "75000",
+      "rating": "4.0",
+      "stock": "100",
+      "brand": "Samsung",
+      "categoryId": "2",
+      "thumbnail": "https://img1.gadgetsnow.com/gd/images/products/additional/large/G389163_View_1/computer-laptop/laptops/samsung-galaxy-book2-np750xed-kc2in-12th-generation-intel-core-i7-1255u-15-6-inches-notebook-laptop-16gb-512gb-ssd-windows-11-silver-1-55-kg-.jpg",
+      "images": "https://i.dummyjson.com/data/products/7/1.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Microsoft Surface Laptop 4",
+      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+      "price": "55499",
+      "rating": "4.43",
+      "stock": "68",
+      "brand": "Microsoft Surface",
+      "categoryId": "2",
+      "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+      "images": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/RE3LFEJ11.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Infinix INBOOK",
+      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+      "price": "49999",
+      "rating": "4.54",
+      "stock": "96",
+      "brand": "Infinix",
+      "categoryId": "2",
+      "thumbnail": "https://infinix-staging-s3.s3.ap-south-1.amazonaws.com/media/eikfkv5p/1000x1497_0000s_0000s_0001_5.jpg",
+      "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1nbcyxY2aK_7B6duPc9roCwt91rO7tL22nYAZGu6FnpjR1dIYEvkDvbCjwsZ-3xbLYe4&usqp=CAU"
+    },
+    {
+      "id": "10",
+      "title": "HP Pavilion 15-DK1056WM",
+      "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+      "price": "69999",
+      "rating": "4.43",
+      "stock": "89",
+      "brand": "HP Pavilion",
+      "categoryId": "2",
+      "thumbnail": "https://i.dummyjson.com/data/products/10/1.jpg",
+      "images": "https://res.cloudinary.com/exceldisc/image/upload/c_scale,w_1080/products/751bee6a-b43f-4e70-8c94-fd4c011e9afa"
+    },
+    {
+      "id": "11",
+      "title": "Samsung S23 ultra",
+      "price": "139999",
+      "rating": "4.5",
+      "stock": "55",
+      "brand": "Samsung",
+      "thumbnail": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61imYpK33qL._SX679_.jpg",
+      "images": "https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s23/buy/720X720_1.jpg",
+      "categoryId": "1",
+      "description": "Samsung Galaxy S23 Ultra 5G'a 6.8 inches Dynamic AMOLED display features a pixel density of 501ppi along with a resolution of 1440 x 3008 pixels and an aspect ratio of 20:9."
+    }
+  ],
+  "category": [
+    {
+      "id": "1",
+      "name": "Smartphones"
+    },
+    {
+      "id": "2",
+      "name": "Laptops"
+    }
+  ]
+}

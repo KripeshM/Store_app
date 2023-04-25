@@ -1,0 +1,73 @@
+
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="https://149695847.v2.pressablecdn.com/wp-content/uploads/2022/07/laptop.jpg" class="d-block" alt="..."
+          width="100%" height="500px">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://c1.wallpaperflare.com/preview/399/729/117/phone-mobile-phone-screen-saver-time.jpg"
+          class="d-block " alt="..." width="100%" height="500px">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg" class="d-block "
+          alt="..." width="100%" height="500px">
+      </div>
+    </div>
+    <button class="carousel-control-prev visually-hidden" type="button" data-bs-target="#carouselExampleInterval"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next visually-hidden" type="button" data-bs-target="#carouselExampleInterval"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <p class="ms-5 mt-3" >Login Details: {{loginDate | date:'short'}}</p>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-8">
+        <input (keyup)="search($event)"  type="text" placeholder="Search Your Items" class="form-control w-75 fw-bold">
+      </div>
+      <div class="col-4">
+        <a routerLink="/store/add" class="btn btn-primary fw-bolder" style="float: right;"><i class="fa-solid fa-cart-plus"></i>&nbsp;Add Item</a>
+      </div>
+    </div>
+  </div>
+  <!-- <pre>
+    {{allProducts|json}}
+  </pre> -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-xs-12  col-lg-6" *ngFor="let product of allProducts | filter:searchKey:'title'">
+        <div class="card m-5">
+          <div class="card-body">
+            <h4 class="text-center fw-bolder">{{product.title}}</h4>
+            <div class="row">
+              <div class="col-7">
+                <img [src]="product.thumbnail" alt="" width="100%" height="300px">
+              </div>
+              <div class="col-5  mt-5 justify-content-center align-items-center">
+                <div class="mt-5">
+                  <p > <span class="fw-bold mt-5">Price:</span>&nbsp;&nbsp;  <i class="fa-solid fa-indian-rupee-sign"></i>{{product.price}}</p>
+                  <p> <span class="fw-bold">Rating:</span>&nbsp; &#11088;{{product.rating}}</p>
+                  <p><span class="fw-bold">Stock available:</span>&nbsp;&nbsp;{{product.stock}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 mb-3">
+              <div class="col-12 d-flex justify-content-evenly">
+                <a routerLink="/store/view/{{product.id}}" class="btn btn-success" title="View Item"><i class="fa-sharp fa-solid fa-eye"></i>&nbsp;&nbsp;view</a>
+                <a routerLink="/store/update/{{product.id}}" class="btn btn-primary" title="Update Item"><i class="fa-sharp fa-solid fa-pen "></i>&nbsp;&nbsp;Update</a>
+                <button (click)="deleteProduct(product.id)" class="btn btn-danger" title="Delete Item"><i class="fa-sharp fa-solid fa-trash"></i>&nbsp;&nbsp;Delete </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  

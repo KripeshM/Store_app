@@ -1,0 +1,35 @@
+<div class="container mt-5">
+    <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-8">
+            <div class="card border border-4 ">
+                <div class="card-body">
+                    <div class="row">
+                        <h2 class="text-center fw-bolder">{{product.title}}</h2>
+                        <div class="col-6 mt-5">
+                            <img [src]="product.images"
+                                alt="" width="100%">
+                        </div>
+                        <div class="col-6 mt-5">
+                            <div class="row mt-4">
+                                <div class="col-10">
+                                    <p> <span class="fw-bold fs-4">Description:</span> {{product.description}}</p>
+                                    <p class="fs-4"><span class="fw-bold">Brand:</span>&nbsp;&nbsp;{{product.brand}}</p>
+                                    <p class="fs-4"> <span class="fw-bold ">Price:</span>&nbsp;&nbsp; <i
+                                            class="fa-solid fa-indian-rupee-sign"></i>{{product.price}}</p>
+                                    <p class="fs-4"> <span class="fw-bold ">Rating:</span>&nbsp; &#11088;{{product.rating}}</p>
+                                    <p class="fs-4"><span class="fw-bold">Stock available:</span>&nbsp;&nbsp;{{product.stock}}</p>
+                                    <p class="fs-4"><span class="fw-bold">Category:</span>&nbsp;&nbsp;{{categoryName}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-3">
+                            <a routerLink="/" class="btn btn-primary my-3 "><i class="fa-solid fa-arrow-left"></i>&nbsp;Go Back</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
